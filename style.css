@@ -40,10 +40,14 @@ h1 {
 .course-name {
   color: #007bff;
   cursor: pointer;
+  position: relative;
 }
 
-.course-name:hover {
-  text-decoration: underline;
+.deadline-indicator {
+  display: inline-block;
+  color: red;
+  margin-left: 5px;
+  font-weight: bold;
 }
 
 .modal {
